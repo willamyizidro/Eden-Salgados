@@ -1,0 +1,95 @@
+/* Estilo base */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Lista de links */
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-item {
+  margin: 10px 0;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #007bff;
+  background: #f1f1f1;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+  background: #e2e6ea;
+  transform: scale(1.05);
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.link-item a.whatsapp .icon {
+  color: #25d366; /* Verde do WhatsApp */
+}
+
+.link-item a.instagram .icon {
+  color: #C13584; /* Rosa/roxo do Instagram */
+}
+
+.link-item a.facebook .icon {
+  color: #4267B2; /* Azul do Facebook */
+}
+
+
+.text {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  a {
+    padding: 10px 15px;
+  }
+
+  .text {
+    font-size: 1em;
+  }
+}
