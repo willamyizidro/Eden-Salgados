@@ -11,7 +11,7 @@ const App = () => {
     { name: "Loja 2 - Bairro: São João - Rua Coqueiral", url: "https://wa.me/message/IXJQU4O4AXUWF1", icon: faWhatsapp, className: "whatsapp" },
     { name: "Loja 3 - Bairro: São João - Estr. Guarulhos-Nazaré", url: "https://wa.me/qr/DY4M4ZXTO4J5I1 ", icon: faWhatsapp, className: "whatsapp" },
     { name: "Loja 4 - Bairro: Jd São Domingos ", url: "https://wa.me/message/53OBOPJZ6FR6D1", icon: faWhatsapp, className: "whatsapp" },
-    { name: "Instagram", url: "https://www.instagram.com/willamyizidro/", icon: faInstagram, className: "instagram" },
+    { name: "Instagram", url: "https://www.instagram.com/edensalgadoss/", icon: faInstagram, className: "instagram" },
   ];
 
   return (
